@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Hayak sanju inaaaaaaaa</h1>
+      <h1>Walahe sutio primen</h1>
     </>
   )
 }
