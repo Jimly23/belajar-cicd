@@ -22,6 +22,10 @@ app.get('/contact', (req, res) => {
   res.send('Hello Contact!');
 });
 
+app.get('/about', (req, res) => {
+  res.send('Hello About!');
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
