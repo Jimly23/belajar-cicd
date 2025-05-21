@@ -18,6 +18,10 @@ app.get('/profile', (req, res) => {
   res.send('Hello Profile!');
 });
 
+app.get('/contact', (req, res) => {
+  res.send('Hello Contact!');
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });

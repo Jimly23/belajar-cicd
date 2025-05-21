@@ -17,7 +17,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part 
     steps:
-      - uses: actions/checkout@v2
       - name: Deploy using ssh
         uses: appleboy/ssh-action@v1
         with:
